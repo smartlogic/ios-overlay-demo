@@ -18,6 +18,11 @@
 		0F5421F116D00153000B9B32 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F5421F016D00153000B9B32 /* Default-568h@2x.png */; };
 		0F5421F416D00153000B9B32 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F5421F216D00153000B9B32 /* MainStoryboard.storyboard */; };
 		0F5421F716D00153000B9B32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5421F616D00153000B9B32 /* ViewController.m */; };
+		0F5421FF16D00263000B9B32 /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5421FE16D00263000B9B32 /* OverlayView.m */; };
+		0F54220116D00F55000B9B32 /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F54220016D00F55000B9B32 /* OverlayView.xib */; };
+		0F54220416D0106C000B9B32 /* closebox.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F54220216D0106C000B9B32 /* closebox.png */; };
+		0F54220516D0106C000B9B32 /* closebox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F54220316D0106C000B9B32 /* closebox@2x.png */; };
+		0F54220716D01D30000B9B32 /* bean.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F54220616D01D30000B9B32 /* bean.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,12 @@
 		0F5421F316D00153000B9B32 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		0F5421F516D00153000B9B32 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0F5421F616D00153000B9B32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F5421FD16D00263000B9B32 /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		0F5421FE16D00263000B9B32 /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		0F54220016D00F55000B9B32 /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
+		0F54220216D0106C000B9B32 /* closebox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closebox.png; sourceTree = "<group>"; };
+		0F54220316D0106C000B9B32 /* closebox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "closebox@2x.png"; sourceTree = "<group>"; };
+		0F54220616D01D30000B9B32 /* bean.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bean.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +94,18 @@
 		0F5421E016D00153000B9B32 /* Overlay */ = {
 			isa = PBXGroup;
 			children = (
+				0F54220616D01D30000B9B32 /* bean.jpg */,
+				0F54220216D0106C000B9B32 /* closebox.png */,
+				0F54220316D0106C000B9B32 /* closebox@2x.png */,
 				0F5421E916D00153000B9B32 /* AppDelegate.h */,
 				0F5421EA16D00153000B9B32 /* AppDelegate.m */,
 				0F5421F216D00153000B9B32 /* MainStoryboard.storyboard */,
+				0F54220016D00F55000B9B32 /* OverlayView.xib */,
 				0F5421F516D00153000B9B32 /* ViewController.h */,
 				0F5421F616D00153000B9B32 /* ViewController.m */,
 				0F5421E116D00153000B9B32 /* Supporting Files */,
+				0F5421FD16D00263000B9B32 /* OverlayView.h */,
+				0F5421FE16D00263000B9B32 /* OverlayView.m */,
 			);
 			path = Overlay;
 			sourceTree = "<group>";
@@ -163,6 +180,10 @@
 				0F5421EF16D00153000B9B32 /* Default@2x.png in Resources */,
 				0F5421F116D00153000B9B32 /* Default-568h@2x.png in Resources */,
 				0F5421F416D00153000B9B32 /* MainStoryboard.storyboard in Resources */,
+				0F54220116D00F55000B9B32 /* OverlayView.xib in Resources */,
+				0F54220416D0106C000B9B32 /* closebox.png in Resources */,
+				0F54220516D0106C000B9B32 /* closebox@2x.png in Resources */,
+				0F54220716D01D30000B9B32 /* bean.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +197,7 @@
 				0F5421E716D00153000B9B32 /* main.m in Sources */,
 				0F5421EB16D00153000B9B32 /* AppDelegate.m in Sources */,
 				0F5421F716D00153000B9B32 /* ViewController.m in Sources */,
+				0F5421FF16D00263000B9B32 /* OverlayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
